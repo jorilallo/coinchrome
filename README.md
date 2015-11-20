@@ -1,5 +1,7 @@
 # CoinChrome
 
+![screenshot 2015-11-19 20 40 40](https://cloud.githubusercontent.com/assets/31465/11292908/393b096c-8f09-11e5-8ed5-11b75ec47e03.png)
+
 Chrome extension to show the latest bitcoin price and your Coinbase portfolio's 24h change on Chrome's new tab.
 
 Build using [Coinbase API](https://developers.coinbase.com/api/v2) and [Coinbase Connect (OAuth2)](https://developers.coinbase.com/docs/wallet/coinbase-connect).
