@@ -1,0 +1,16 @@
+{
+  "name": "CoinChrome",
+  "description": "Chrome home page with the latest bitcoin price and you portfolio change",
+  "version": "0.1.1",
+  "manifest_version": 2,
+  "permissions": [
+    "identity",
+    "https://api.coinbase.com/v2/accounts/*",
+    "https://www.coinbase.com/oauth/*"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "icons": { "128": "icon128.png" }
+}
